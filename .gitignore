@@ -1,6 +1,7 @@
-# Ignore compiled docs
-_gh_pages
-_site
+# Ignore compiled docs and development files
+Gruntfile.js
+package.json
+_config.yml
 
 # Numerous always-ignore extensions
 *.diff
@@ -39,3 +40,14 @@ nbproject
 .CVS
 .idea
 node_modules
+_gh_pages
+_site
+_includes
+assets
+
+# Documentation files
+javascript.html
+css.html
+components.html
+customize.html
+getting-started.html
