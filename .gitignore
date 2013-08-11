@@ -2,6 +2,8 @@
 Gruntfile.js
 package.json
 _config.yml
+js/.jshintrc
+js/tests
 
 # Numerous always-ignore extensions
 *.diff
@@ -43,6 +45,7 @@ node_modules
 _gh_pages
 _site
 _includes
+_layouts
 assets
 
 # Documentation files
@@ -51,3 +54,4 @@ css.html
 components.html
 customize.html
 getting-started.html
+index.html
