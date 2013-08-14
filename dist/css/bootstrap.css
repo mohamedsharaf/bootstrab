@@ -840,21 +840,6 @@ pre code {
   padding-left: 15px;
 }
 
-<<<<<<< HEAD
-.col-1,
-.col-2,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12 {
-  float: right;
-=======
 .col-xs-1,
 .col-xs-2,
 .col-xs-3,
@@ -866,8 +851,7 @@ pre code {
 .col-xs-9,
 .col-xs-10,
 .col-xs-11 {
-  float: left;
->>>>>>> 3.0.0-wip
+  float: right;
 }
 
 .col-xs-1 {
@@ -932,14 +916,8 @@ pre code {
   .col-sm-8,
   .col-sm-9,
   .col-sm-10,
-<<<<<<< HEAD
-  .col-sm-11,
-  .col-sm-12 {
-    float: right;
-=======
   .col-sm-11 {
-    float: left;
->>>>>>> 3.0.0-wip
+    float: right;
   }
   .col-sm-1 {
     width: 8.333333333333332%;
@@ -1246,14 +1224,8 @@ pre code {
   .col-lg-8,
   .col-lg-9,
   .col-lg-10,
-<<<<<<< HEAD
-  .col-lg-11,
-  .col-lg-12 {
-    float: right;
-=======
   .col-lg-11 {
-    float: left;
->>>>>>> 3.0.0-wip
+    float: right;
   }
   .col-lg-1 {
     width: 8.333333333333332%;
@@ -1851,25 +1823,6 @@ textarea.input-lg {
   color: #737373;
 }
 
-<<<<<<< HEAD
-.form-inline .form-control,
-.form-inline .radio,
-.form-inline .checkbox {
-  display: inline-block;
-}
-
-.form-inline .radio,
-.form-inline .checkbox {
-  padding-right: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.form-inline .radio input[type="radio"],
-.form-inline .checkbox input[type="checkbox"] {
-  float: none;
-  margin-right: 0;
-=======
 @media (min-width: 768px) {
   .form-inline .form-group {
     display: inline-block;
@@ -1882,16 +1835,15 @@ textarea.input-lg {
   .form-inline .radio,
   .form-inline .checkbox {
     display: inline-block;
-    padding-left: 0;
+    padding-right: 0;
     margin-top: 0;
     margin-bottom: 0;
   }
   .form-inline .radio input[type="radio"],
   .form-inline .checkbox input[type="checkbox"] {
     float: none;
-    margin-left: 0;
+    margin-right: 0;
   }
->>>>>>> 3.0.0-wip
 }
 
 .form-horizontal .control-label,
@@ -2622,24 +2574,11 @@ textarea.input-group-lg > .input-group-btn > .btn {
 }
 
 .list-group-item > .badge {
-<<<<<<< HEAD
   float: left;
 }
 
 .list-group-item > .badge + .badge {
-  margin-left: 0;
-}
-
-.list-group-item-heading {
-  margin-top: 0;
-  margin-bottom: 5px;
-=======
-  float: right;
-}
-
-.list-group-item > .badge + .badge {
-  margin-right: 5px;
->>>>>>> 3.0.0-wip
+  margin-left: 5px;
 }
 
 a.list-group-item {
@@ -3202,15 +3141,10 @@ button.close {
   clear: both;
 }
 
-<<<<<<< HEAD
-.navbar-nav.pull-left {
-  width: 100%;
-=======
 .navbar-header:before,
 .navbar-header:after {
   display: table;
   content: " ";
->>>>>>> 3.0.0-wip
 }
 
 .navbar-header:after {
@@ -3219,7 +3153,7 @@ button.close {
 
 @media (min-width: 768px) {
   .navbar-header {
-    float: left;
+    float: right;
   }
 }
 
@@ -3295,10 +3229,10 @@ button.close {
 }
 
 .navbar-brand {
-  float: left;
+  float: right;
   padding-top: 15px;
   padding-bottom: 15px;
-  margin-right: 7.5px;
+  margin-left: 7.5px;
   font-size: 18px;
   line-height: 20px;
   color: #777777;
@@ -3313,15 +3247,8 @@ button.close {
 
 .navbar-toggle {
   position: relative;
-<<<<<<< HEAD
   float: left;
-  width: 48px;
-  height: 34px;
-  padding: 6px 12px;
-=======
-  float: right;
   padding: 9px 10px;
->>>>>>> 3.0.0-wip
   margin-top: 8px;
   margin-bottom: 8px;
   background-color: transparent;
@@ -3424,15 +3351,15 @@ button.close {
 }
 
 @media (min-width: 768px) {
-  .navbar-left {
-    float: left !important;
-  }
   .navbar-right {
     float: right !important;
   }
-  .navbar-right .dropdown-menu {
-    right: 0;
-    left: auto;
+  .navbar-left {
+    float: left !important;
+  }
+  .navbar-left .dropdown-menu {
+    right: auto;
+    left: 0;
   }
 }
 
@@ -3458,30 +3385,17 @@ button.close {
   .navbar-form .radio,
   .navbar-form .checkbox {
     display: inline-block;
-    padding-left: 0;
+    padding-right: 0;
     margin-top: 0;
     margin-bottom: 0;
   }
   .navbar-form .radio input[type="radio"],
   .navbar-form .checkbox input[type="checkbox"] {
     float: none;
-    margin-left: 0;
+    margin-right: 0;
   }
 }
 
-<<<<<<< HEAD
-.navbar-form .radio,
-.navbar-form .checkbox {
-  padding-right: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.navbar-form .radio input[type="radio"],
-.navbar-form .checkbox input[type="checkbox"] {
-  float: none;
-  margin-right: 0;
-=======
 @media (max-width: 767px) {
   .navbar-form .form-group {
     margin-bottom: 5px;
@@ -3497,7 +3411,6 @@ button.close {
     margin-left: 0;
     border: 0;
   }
->>>>>>> 3.0.0-wip
 }
 
 .navbar-nav > li > .dropdown-menu {
@@ -3626,14 +3539,6 @@ button.close {
   border-bottom-color: #ffffff;
 }
 
-<<<<<<< HEAD
-@media screen and (min-width: 768px) {
-  .navbar-brand {
-    float: right;
-    max-width: none;
-    margin-right: -15px;
-    margin-left: 5px;
-=======
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #080808;
@@ -3645,7 +3550,6 @@ button.close {
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #ffffff;
     background-color: transparent;
->>>>>>> 3.0.0-wip
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
@@ -3671,15 +3575,8 @@ button.close {
     float: right;
   }
   .navbar-nav > li > a {
-<<<<<<< HEAD
-    border-radius: 0;
-  }
-  .navbar-nav.pull-left {
-    width: auto;
-=======
     padding-top: 15px;
     padding-bottom: 15px;
->>>>>>> 3.0.0-wip
   }
   .navbar-toggle {
     position: relative;
@@ -3700,12 +3597,7 @@ button.close {
 }
 
 .navbar-text {
-<<<<<<< HEAD
   float: right;
-  padding: 0 15px;
-=======
-  float: left;
->>>>>>> 3.0.0-wip
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -3779,16 +3671,11 @@ button.close {
   outline: none;
 }
 
-<<<<<<< HEAD
-.btn-group .btn + .btn {
-  margin-right: -1px;
-=======
 .btn-group .btn + .btn,
 .btn-group .btn + .btn-group,
 .btn-group .btn-group + .btn,
 .btn-group .btn-group + .btn-group {
-  margin-left: -1px;
->>>>>>> 3.0.0-wip
+  margin-right: -1px;
 }
 
 .btn-toolbar:before,
@@ -4602,15 +4489,6 @@ button.close {
   color: #a47e3c;
 }
 
-<<<<<<< HEAD
-.alert .close {
-  position: relative;
-  top: -2px;
-  color: inherit;
-}
-
-=======
->>>>>>> 3.0.0-wip
 .alert > p,
 .alert > ul {
   margin-bottom: 0;
