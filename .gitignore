@@ -45,11 +45,11 @@ validation-staus.json
 .CVS
 .idea
 node_modules
-_gh_pages
-_site
-_includes
-_layouts
-assets
+_gh_pages/
+_site/
+_includes/
+_layouts/
+assets/
 
 # Documentation files
 javascript.html
