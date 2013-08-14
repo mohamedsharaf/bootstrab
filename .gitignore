@@ -2,6 +2,8 @@
 Gruntfile.js
 package.json
 _config.yml
+.travis.yml
+bower.json
 js/.jshintrc
 js/tests
 
