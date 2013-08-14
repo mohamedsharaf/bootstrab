@@ -1,8 +1,9 @@
-# [Bootstrab v1.0.0]
+# [Bootstrab v1.0.1]
+
+_This is a work in progress based on Bootstrap 3.0.0 RC 2_
 
 ## English
-This is an RTL implementation of the very popular css framework Bootstrap(https://github.com/twbs/bootstrap).
-
+This is an RTL implementation of the very popular css framework Bootstrap (https://github.com/twbs/bootstrap).
 Documentation will be written soon in both English and Arabic.
 
 
