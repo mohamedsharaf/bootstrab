@@ -1,6 +1,6 @@
 # [Bootstrab v1.0.1]
 
-_This is a work in progress based on Bootstrap 3.0.0 RC 2_
+_A port of Boostrap 3.0.0 to RTL Languages_
 
 ## English
 This is an RTL implementation of the very popular css framework Bootstrap (https://github.com/twbs/bootstrap).
